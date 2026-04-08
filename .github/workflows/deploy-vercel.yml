@@ -1,15 +1,44 @@
-# Optional production deploy to Vercel. Run manually from Actions → "Deploy (Vercel)" → Run workflow.
-# Repo secrets: VERCEL_TOKEN, VERCEL_ORG_ID, VERCEL_PROJECT_ID
-# Create token: Vercel → Account Settings → Tokens. IDs: Project → Settings → General.
-# Tip: connecting the GitHub repo in the Vercel dashboard gives preview + prod deploys without this file.
+# Optional production deploy to Vercel (manual: Actions → "Deploy (Vercel)" → Run workflow).
+#
+# Required GitHub repo secrets (Settings → Secrets and variables → Actions):
+#   VERCEL_TOKEN        — Vercel → Account Settings → Tokens → Create
+#   VERCEL_ORG_ID       — Project → Settings → General → "Project ID" is NOT this; use Team ID from vercel.com/account or `vercel whoami` / project link in dashboard URL
+#   VERCEL_PROJECT_ID   — Project → Settings → General → Project ID
+#
+# Quick local IDs: run `npx vercel link` then read `.vercel/project.json` (do not commit that folder).
+#
+# Alternative: connect this repo under Vercel → Project → Git — previews + production without this workflow.
 name: Deploy (Vercel)
 
 on:
   workflow_dispatch:
 
 jobs:
+  preflight:
+    name: Check Vercel secrets
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verify secrets exist
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+        run: |
+          ok=true
+          if [ -z "$VERCEL_TOKEN" ]; then echo "::error::Missing secret VERCEL_TOKEN"; ok=false; fi
+          if [ -z "$VERCEL_ORG_ID" ]; then echo "::error::Missing secret VERCEL_ORG_ID"; ok=false; fi
+          if [ -z "$VERCEL_PROJECT_ID" ]; then echo "::error::Missing secret VERCEL_PROJECT_ID"; ok=false; fi
+          if [ "$ok" != true ]; then
+            echo ""
+            echo "Add the three secrets under: Repo → Settings → Secrets and variables → Actions."
+            echo "See comments at the top of .github/workflows/deploy-vercel.yml"
+            exit 1
+          fi
+          echo "All required Vercel secrets are set."
+
   deploy:
     name: Deploy to Vercel
+    needs: preflight
     runs-on: ubuntu-latest
     timeout-minutes: 20
 
