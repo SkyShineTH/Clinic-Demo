@@ -1,0 +1,214 @@
+{
+  "Nav": {
+    "ariaMain": "Main navigation",
+    "services": "Services",
+    "technology": "Technology",
+    "team": "Team",
+    "gallery": "Gallery",
+    "branches": "Branches",
+    "faq": "FAQ"
+  },
+  "Footer": {
+    "linksTitle": "Links",
+    "legalTitle": "Legal & safety",
+    "hoursBlurb": "Typical hours: Mon–Fri 10:00–20:00 (demo)",
+    "booking": "Book online",
+    "staffReception": "Staff: front desk (demo)",
+    "copyright": "demo project — not a real clinic",
+    "languageLabel": "Language",
+    "privacy": "Privacy policy",
+    "terms": "Terms of service",
+    "cookies": "Cookies"
+  },
+  "Common": {
+    "demoBanner": "Demo website — sample data",
+    "bookOnline": "Book online",
+    "bookShort": "Book",
+    "menuTitle": "Menu",
+    "lineChat": "Chat on LINE",
+    "langSwitcherGroupAria": "Choose language · เลือกภาษา",
+    "srUsingTh": " — Thai (active)",
+    "srUsingEn": " — English (active)",
+    "mobileNavAria": "Navigation menu",
+    "closeMenu": "Close menu",
+    "openMenu": "Open menu"
+  },
+  "Metadata": {
+    "homeTitle": "Home",
+    "homeDescription": "Premium dental clinic demo — implants, veneers, orthodontics, digital smile design",
+    "technologyTitle": "Technology",
+    "teamTitle": "Team",
+    "galleryTitle": "Gallery",
+    "branchesTitle": "Branches",
+    "faqTitle": "FAQ"
+  },
+  "TechnologyPage": {
+    "title": "Technology & digital dentistry",
+    "intro": "Plain-language overview: we combine scan data and treatment planning so you can decide with confidence.",
+    "disclaimer": "Each topic uses stock photos — not Clinic Demo’s real clinic.",
+    "creditUnsplash": "Photo credit · Unsplash",
+    "scan": {
+      "title": "3D scanning",
+      "body": "See tooth and gum structure from angles you can review — less guesswork."
+    },
+    "cad": {
+      "title": "CAD/CAM",
+      "body": "Design dental work to match your treatment plan and bite."
+    },
+    "dsd": {
+      "title": "Digital Smile Design",
+      "body": "Plan smile lines and oral proportions before treatment begins."
+    }
+  },
+  "TeamPage": {
+    "title": "Dental team",
+    "subtitle": "Sample profiles — verify credentials and licenses before publishing.",
+    "disclaimer": "The group photo below is stock — not Clinic Demo’s real team · doctor bios are examples only.",
+    "langLabel": "Languages",
+    "d1": {
+      "name": "Dr. Wimol Jaidee",
+      "focus": "Implants · rehabilitation",
+      "edu": "Doctor of Dental Surgery (sample)",
+      "lang": "Thai · English"
+    },
+    "d2": {
+      "name": "Dr. Lalita Sawang",
+      "focus": "Veneers · smile design",
+      "edu": "Doctor of Dental Surgery (sample)",
+      "lang": "Thai · English"
+    },
+    "d3": {
+      "name": "Dr. Phumi Numnuan",
+      "focus": "Orthodontics",
+      "edu": "Doctor of Dental Surgery (sample)",
+      "lang": "Thai"
+    }
+  },
+  "GalleryPage": {
+    "title": "Gallery (demo)",
+    "disclaimer": "This demo gallery uses stock photos of people smiling — not real Clinic Demo patients. Outcomes depend on oral health and individual plans; results like the photos cannot be guaranteed.",
+    "casePrefix": "CASE-DEMO-"
+  },
+  "BranchesPage": {
+    "title": "Branches & directions",
+    "intro": "Embedded maps from OpenStreetMap — demo coordinates near BTS stops named for each branch (not Clinic Demo’s real locations).",
+    "stockNote": "City photos are Bangkok stock images — not the actual branch sites.",
+    "creditUnsplash": "Photo credit · Unsplash",
+    "mapNote": "OpenStreetMap · demo coordinates near {area}",
+    "openInOsm": "Open in OpenStreetMap",
+    "mapIframeTitle": "Map · {name}",
+    "locations": {
+      "siam": {
+        "area": "BTS Siam",
+        "hours": "Mon–Fri 10:00–20:00 · Sat 10:00–18:00"
+      },
+      "thonglor": {
+        "area": "BTS Thong Lo",
+        "hours": "Mon–Fri 10:00–20:00 · closed Sunday"
+      },
+      "ari": {
+        "area": "BTS Ari",
+        "hours": "Mon–Sat 09:30–19:30"
+      }
+    }
+  },
+  "FaqPage": {
+    "title": "Frequently asked questions",
+    "subtitle": "Answers below are sample copy for demonstration.",
+    "q1": "If I book online, is the appointment confirmed immediately?",
+    "a1": "Requests are reviewed by staff before confirmation — a real system would follow up with you.",
+    "q2": "How do I reschedule or cancel?",
+    "a2": "Sample: notify at least 24 hours in advance via LINE or by calling the branch.",
+    "q3": "Is English available?",
+    "a3": "Sample: some team members can communicate in English — please mention it when booking.",
+    "q4": "Does booking count as a diagnosis?",
+    "a4": "No — it’s only an initial appointment request."
+  },
+  "Home": {
+    "hero": {
+      "eyebrow": "Premium dentistry · Bangkok",
+      "title": "Smile with confidence — modern technology",
+      "body": "Plan your smile with digital smile design, step-by-step assessments, and a team focused on safety — all content on this page is for demonstration only.",
+      "lineCta": "Chat on LINE",
+      "bulletSterilization": "Sterilization standards (sample)",
+      "bulletDigital": "Digital technology",
+      "photoCredit": "Stock photo",
+      "photoDisclaimer": "Not the real Clinic Demo location — illustration only.",
+      "photoBy": "Photo by",
+      "onUnsplash": "on"
+    },
+    "services": {
+      "title": "Featured services",
+      "subtitle": "Editorial layout — not identical cards everywhere.",
+      "focus": "Focus",
+      "implantsTitle": "Implants & full-mouth rehabilitation",
+      "implantsBody": "Plan before treatment, assess with digital imaging, and explain options clearly.",
+      "seeDetails": "See details",
+      "creditUnsplash": "Photo credit · Unsplash",
+      "veneersTitle": "Veneers · smile makeover",
+      "veneersBody": "Design your smile together",
+      "orthoTitle": "Orthodontics & digital smile design",
+      "orthoBody": "Overview of all services"
+    },
+    "tech": {
+      "title": "Technology & digital",
+      "subtitle": "Short, clear explanations — not jargon-heavy.",
+      "scanTitle": "3D scanning",
+      "scanBody": "Capture teeth and gum structure to plan treatment.",
+      "cadTitle": "CAD/CAM",
+      "cadBody": "Design and produce dental work aligned with your plan.",
+      "dsdTitle": "DSD",
+      "dsdBody": "Digital smile design — preview the direction before you decide.",
+      "readMore": "Read more"
+    },
+    "team": {
+      "title": "Dentists",
+      "subtitle": "Sample profiles — verify credentials before publishing.",
+      "seeAll": "See all",
+      "cardAria": "View full dental team",
+      "creditLine": "Group photo is stock · Unsplash — not Clinic Demo’s real team",
+      "d1name": "Dr. Wimol Jaidee",
+      "d1role": "Implants / rehabilitation",
+      "d2name": "Dr. Lalita Sawang",
+      "d2role": "Veneers / smile design",
+      "d3name": "Dr. Phumi Numnuan",
+      "d3role": "Orthodontics"
+    },
+    "gallery": {
+      "title": "Gallery (demo)",
+      "body": "Sample stock photos of people smiling — not real Clinic Demo patients. Outcomes depend on oral health and individual plans; results like the photos cannot be guaranteed.",
+      "cta": "View gallery"
+    },
+    "reviews": {
+      "title": "Reviews",
+      "subtitle": "Sample messages — not from real clients."
+    },
+    "branches": {
+      "title": "Branches",
+      "mapCta": "Maps & directions (demo)",
+      "bookCta": "Book"
+    },
+    "faqTeaser": {
+      "title": "FAQ",
+      "q1": "Can I cancel a booking?",
+      "a1": "Sample copy: please notify at least 24 hours in advance via LINE or phone.",
+      "q2": "Is online booking a diagnosis?",
+      "a2": "No — it’s only an initial appointment request. Diagnosis and treatment plans happen with your dentist.",
+      "seeAll": "See all"
+    },
+    "trustStrip": {
+      "t1": "Verify before publish",
+      "t2": "Sterilization standards",
+      "t3": "Digital tools",
+      "t4": "Specialist team"
+    }
+  },
+  "Review": {
+    "disclaimer": "Reviews are fictional samples for demo purposes only.",
+    "prev": "Previous review",
+    "next": "Next review",
+    "pick": "Choose review",
+    "slide": "Review {n}",
+    "profileCredit": "Profile photo · Unsplash"
+  }
+}
